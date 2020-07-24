@@ -21,7 +21,7 @@
         <spring-cloud-alibaba.version>2.2.0.RELEASE</spring-cloud-alibaba.version>
         <lombok.version>1.16.20</lombok.version>
         <druid.version>1.0.29</druid.version>
-        <mysql.version>5.1.47</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <mybatisplus.version>3.3.0</mybatisplus.version>
     </properties>
 

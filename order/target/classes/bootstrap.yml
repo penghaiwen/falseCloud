@@ -1,0 +1,25 @@
+server:
+  port: 9100
+spring:
+  application:
+    name: serviceOrder
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+  profiles:
+    active: dev
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:9200/api/oauth/user
+    client:
+      id: pro
+      client-secret: 123
+      access-token-uri: http://localhost:9200/oauth/token
+      grant-type: client_credentials,password
+      scope: all

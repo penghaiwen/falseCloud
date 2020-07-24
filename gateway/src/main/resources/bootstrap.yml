@@ -1,0 +1,51 @@
+server:
+  port: 10000
+spring:
+  application:
+    name: serviceGateway
+  security:
+    user:
+      name: pro
+      password: 123
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+       - id: admin-route
+         uri: lb://serviceAdmin
+         predicates:
+           - Path=/api/**
+         filters:
+           - StripPrefix=1
+       - id: order-route
+         uri: lb://serviceOrder
+         predicates:
+           - Path=/order/**
+         filters:
+           - StripPrefix=1
+       - id: oauth-route
+         uri: lb://serviceOauth
+         predicates:
+           - Path=/oauth/**
+         filters:
+           - StripPrefix=1
+  profiles:
+    active: dev
+security:
+  oauth2:
+    client:
+      access-token-uri: http://localhost:9200/oauth/token #网关的地址
+      user-authorization-uri: http://localhost:9200/oauth/authorize
+      client-id: pro
+    resource:
+      user-info-uri: http://localhost:9200/api/oauth/user
+      prefer-token-info: false
+

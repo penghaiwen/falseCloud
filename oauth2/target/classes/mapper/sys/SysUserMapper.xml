@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cloud.com.user.mapper.SysUserMapper">
+    <select id="getUserByUsername" resultType="cloud.com.user.vo.UserVo">
+        select id ,nick_name ,account as username, password from sys_user where account=#{userName} and delete_flag =0   limit 1
+    </select>
+
+</mapper>

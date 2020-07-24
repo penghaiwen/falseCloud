@@ -1,0 +1,66 @@
+2020-07-17 09:03:35,492 INFO DEFAULT_GROUP@@serviceOauth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:9200:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-17 09:03:35,492 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOauth, ips: 192.168.1.144:9200_true,
+
+2020-07-17 09:07:20,774 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOauth, ips: 192.168.1.144:9200_true,
+
+2020-07-17 09:09:40,235 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceAdmin, ips: 192.168.1.144:9000_true,
+
+2020-07-17 09:09:51,288 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 09:10:09,507 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOauth, ips: 192.168.1.144:9200_true,
+
+2020-07-17 09:21:40,349 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOauth, ips: 192.168.1.144:9200_true,
+
+2020-07-17 09:21:48,752 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceAdmin, ips: 192.168.1.144:9000_true,
+
+2020-07-17 09:21:57,151 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOauth, ips: 192.168.1.144:9200_true,
+
+2020-07-17 09:26:29,077 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOauth, ips: 192.168.1.144:9200_true,
+
+2020-07-17 09:27:57,284 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOauth, ips: 192.168.1.144:9200_true,
+
+2020-07-17 09:38:08,887 INFO {POS} {IP-DISABLED} valid: 192.168.1.144:10000@DEFAULT@DEFAULT_GROUP@@serviceGateway, region: unknown, msg: client timeout after 15000, last beat: 1594949872300
+
+2020-07-17 09:38:23,893 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-07-17 09:38:23,893 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 
+
+2020-07-17 09:46:51,644 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-17 09:46:51,644 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 09:47:57,749 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 09:49:33,651 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 09:50:13,186 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 09:50:56,174 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 09:51:34,865 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 09:52:44,910 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 09:53:30,835 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 09:55:06,509 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 09:57:08,235 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 10:03:52,367 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOrder, ips: 192.168.1.144:9100_true,
+
+2020-07-17 10:06:16,225 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOrder, ips: 192.168.1.144:9100_true,
+
+2020-07-17 10:07:47,057 INFO {POS} {IP-DISABLED} valid: 192.168.1.144:10000@DEFAULT@DEFAULT_GROUP@@serviceGateway, region: unknown, msg: client timeout after 15000, last beat: 1594951648835
+
+2020-07-17 10:08:00,563 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_false,
+
+2020-07-17 10:08:05,557 INFO service: DEFAULT_GROUP@@serviceGateway {POS} {IP-ENABLED} valid: 192.168.1.144:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-17 10:23:10,272 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOrder, ips: 192.168.1.144:9100_true,
+
+2020-07-17 13:54:28,567 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-17 13:56:17,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+

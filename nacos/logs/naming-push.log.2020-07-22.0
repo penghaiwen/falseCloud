@@ -1,0 +1,66 @@
+2020-07-22 11:19:57,382 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 11:20:16,543 INFO DEFAULT_GROUP@@serviceOauth is changed, add it to push queue.
+
+2020-07-22 11:20:27,853 INFO DEFAULT_GROUP@@serviceAdmin is changed, add it to push queue.
+
+2020-07-22 11:20:43,405 INFO DEFAULT_GROUP@@serviceOrder is changed, add it to push queue.
+
+2020-07-22 11:21:37,453 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 11:21:38,460 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 11:32:56,606 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 11:33:07,662 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:15:51,874 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:16:01,343 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:18:16,241 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:18:27,743 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:19:29,393 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:19:41,393 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:20:38,383 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:20:50,637 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:24:24,733 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:25:01,394 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:28:38,694 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 12:28:50,847 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 13:40:03,621 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 13:40:15,383 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 13:57:09,476 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 13:57:09,538 INFO DEFAULT_GROUP@@serviceOauth is changed, add it to push queue.
+
+2020-07-22 13:57:09,581 INFO serviceName: DEFAULT_GROUP@@serviceOauth changed, schedule push for: 192.168.1.144:51378, agent: Nacos-Java-Client:v1.1.4, key: 192.168.1.144,51378,180141113244300
+
+2020-07-22 13:57:09,581 INFO send udp packet: 192.168.1.144,51378,180141113244300
+
+2020-07-22 13:57:09,583 INFO DEFAULT_GROUP@@serviceAdmin is changed, add it to push queue.
+
+2020-07-22 13:57:09,592 INFO received ack: {"type": "push-ack", "lastRefTime":"180141113244300", "data":""} from: 192.168.1.144:51378, cost: 11 ms, unacked: 0, total push: 1
+
+2020-07-22 13:57:09,607 INFO DEFAULT_GROUP@@serviceOrder is changed, add it to push queue.
+
+2020-07-22 16:59:30,086 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-22 16:59:59,447 INFO DEFAULT_GROUP@@serviceAdmin is changed, add it to push queue.
+
+2020-07-22 17:00:06,445 INFO DEFAULT_GROUP@@serviceOauth is changed, add it to push queue.
+
+2020-07-22 17:00:08,870 INFO DEFAULT_GROUP@@serviceOrder is changed, add it to push queue.
+

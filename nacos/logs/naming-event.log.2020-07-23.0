@@ -1,0 +1,92 @@
+2020-07-23 10:10:54,936 INFO DEFAULT_GROUP@@serviceAdmin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:10:54,939 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceAdmin, ips: 192.168.1.144:9000_true,
+
+2020-07-23 10:10:55,370 INFO DEFAULT_GROUP@@serviceOauth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:9200:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:10:55,371 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOauth, ips: 192.168.1.144:9200_true,
+
+2020-07-23 10:10:56,640 INFO DEFAULT_GROUP@@serviceOrder {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:9100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:10:56,640 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOrder, ips: 192.168.1.144:9100_true,
+
+2020-07-23 10:11:03,793 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:11:03,793 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-23 10:13:28,849 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:13:28,849 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 
+
+2020-07-23 10:13:39,896 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:13:39,896 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-23 10:14:28,893 INFO {POS} {IP-DISABLED} valid: 192.168.1.144:10000@DEFAULT@DEFAULT_GROUP@@serviceGateway, region: unknown, msg: client timeout after 15000, last beat: 1595470452127
+
+2020-07-23 10:14:31,326 INFO service: DEFAULT_GROUP@@serviceGateway {POS} {IP-ENABLED} valid: 192.168.1.144:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-23 10:16:32,394 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:16:32,394 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 
+
+2020-07-23 10:16:43,934 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:16:43,934 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-23 10:22:30,217 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:22:30,217 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 
+
+2020-07-23 10:22:44,334 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:22:44,334 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-23 10:39:04,662 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:39:04,662 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 
+
+2020-07-23 10:39:18,647 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:39:18,647 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-23 10:55:20,706 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:55:20,706 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 
+
+2020-07-23 10:55:33,719 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:55:33,719 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-23 10:58:14,051 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:58:14,051 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 
+
+2020-07-23 10:58:31,608 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 10:58:31,608 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-23 11:06:55,369 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 11:06:55,369 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 
+
+2020-07-23 11:12:15,568 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 11:12:15,568 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 192.168.1.144:10000_true,
+
+2020-07-23 11:12:36,066 INFO DEFAULT_GROUP@@serviceGateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 11:12:36,066 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceGateway, ips: 
+
+2020-07-23 13:34:30,292 INFO DEFAULT_GROUP@@serviceAdmin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 13:34:30,293 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceAdmin, ips: 
+
+2020-07-23 13:34:30,389 INFO DEFAULT_GROUP@@serviceOauth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:9200:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 13:34:30,389 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOauth, ips: 
+
+2020-07-23 13:34:30,441 INFO DEFAULT_GROUP@@serviceOrder {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.144:9100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-23 13:34:30,441 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serviceOrder, ips: 
+

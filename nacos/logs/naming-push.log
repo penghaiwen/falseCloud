@@ -1,0 +1,30 @@
+2020-07-24 17:10:06,474 INFO DEFAULT_GROUP@@serviceOrder is changed, add it to push queue.
+
+2020-07-24 17:10:18,210 INFO DEFAULT_GROUP@@serviceAdmin is changed, add it to push queue.
+
+2020-07-24 17:10:26,779 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-24 17:10:32,120 INFO DEFAULT_GROUP@@serviceOauth is changed, add it to push queue.
+
+2020-07-24 17:26:22,433 INFO DEFAULT_GROUP@@serviceOauth is changed, add it to push queue.
+
+2020-07-24 17:26:22,448 INFO serviceName: DEFAULT_GROUP@@serviceOauth changed, schedule push for: 192.168.1.144:60566, agent: Nacos-Java-Client:v1.1.4, key: 192.168.1.144,60566,26188419935200
+
+2020-07-24 17:26:22,448 INFO send udp packet: 192.168.1.144,60566,26188419935200
+
+2020-07-24 17:26:22,458 INFO received ack: {"type": "push-ack", "lastRefTime":"26188419935200", "data":""} from: 192.168.1.144:60566, cost: 10 ms, unacked: 0, total push: 1
+
+2020-07-24 17:26:26,173 INFO DEFAULT_GROUP@@serviceOrder is changed, add it to push queue.
+
+2020-07-24 17:26:26,200 INFO DEFAULT_GROUP@@serviceAdmin is changed, add it to push queue.
+
+2020-07-24 17:26:26,229 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-24 18:01:38,353 INFO DEFAULT_GROUP@@serviceOauth is changed, add it to push queue.
+
+2020-07-24 18:01:46,683 INFO DEFAULT_GROUP@@serviceAdmin is changed, add it to push queue.
+
+2020-07-24 18:01:59,977 INFO DEFAULT_GROUP@@serviceGateway is changed, add it to push queue.
+
+2020-07-24 18:02:08,489 INFO DEFAULT_GROUP@@serviceOrder is changed, add it to push queue.
+

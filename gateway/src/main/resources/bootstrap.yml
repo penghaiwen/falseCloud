@@ -39,13 +39,5 @@ spring:
            - StripPrefix=1
   profiles:
     active: dev
-#security:
-#  oauth2:
-#    client:
-#      access-token-uri: http://localhost:9200/oauth/token #网关的地址
-#      user-authorization-uri: http://localhost:9200/oauth/authorize
-#      client-id: pro
-#    resource:
-#      user-info-uri: http://localhost:9200/api/oauth/user
-#      prefer-token-info: false
+
 

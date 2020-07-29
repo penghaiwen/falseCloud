@@ -23,3 +23,6 @@ security:
       access-token-uri: http://localhost:9200/oauth/token
       grant-type: client_credentials,password
       scope: all
+feign:
+  hystrix:
+    enabled: true

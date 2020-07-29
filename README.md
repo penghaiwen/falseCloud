@@ -68,7 +68,43 @@
                 uri：目标服务地址
                 predicates：路由条件，Predicate 接受一个输入参数，返回一个布尔值结果。该接口包含多种默认方法来将 Predicate 组合成其他复杂的逻辑（比如：与，或，非）。
                 filters：过滤规则，本示例暂时没用。
-                
     
+    
+    
+    oauth2:  主要实现端，Token 的生成、刷新、验证都在认证中心完成。
+        集成oauth2有需要引入jar包
+            spring-cloud-starter-oauth2
+            spring-cloud-starter-security
+        如果将token保存在redis中，则还需要引入
+            spring-boot-starter-data-redis
+        实现oauth2 要实现AuthorizationServerConfigurerAdapter ResourceServerConfigurerAdapter WebSecurityConfigurerAdapter UserDetailsService
+    
+            1.创建AuthorizationServerConfig  继承 AuthorizationServerConfigurerAdapter类型
+                1.1：添加@EnableAuthorizationServer和 @Configuration注解
+                1.2：重写三个configure 方法的。
+                    1.2.1：重写参数为：ClientDetailsServiceConfigurer 方法 设置账号 密码 类型 作用域 token的有效时间 刷新token的有效时间：
+                        clients.inMemory()
+                                //账号
+                                .withClient("pro")
+                                //授权同意的类型
+                                .authorizedGrantTypes("password", "refresh_token")
+                                //有效时间
+                                .accessTokenValiditySeconds(60 * 60 * 30)
+                                //刷新有效时间
+                                .refreshTokenValiditySeconds(60 * 60 * 60)
+                                .resourceIds("rid")
+                                //作用域，范围
+                                .scopes("all")
+                                //密码
+                                .secret(new BCryptPasswordEncoder().encode("123"));
+                    1.2.2：重写参数为AuthorizationServerEndpointsConfigurer的方法，将用户验证，token存放到redis中
+                        endpoints
+                               .tokenStore(new RedisTokenStore(redisConnectionFactory))
+                               //身份验证管理
+                               .authenticationManager(authenticationManager)
+                               .userDetailsService(userDetailsService);
+                               
+                    1.2.3：重写参数为AuthorizationServerSecurityConfigurer的方法，设置允许客户端表单身份验证
+                        security.allowFormAuthenticationForClients();
         
         

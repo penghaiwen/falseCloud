@@ -32,8 +32,7 @@ public class TestController {
 
     @GetMapping("get/user")
     public Result getOrderDetails( ){
-        throw new RuntimeException("测试");
-
+       return AppResult.ok(sysUser.getUserByUsername("admin"));
     }
 
     @GetMapping("/product/{id}")

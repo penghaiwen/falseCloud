@@ -4,14 +4,17 @@ spring:
   application:
     name: serviceAdmin
   cloud:
+    config:
+      enabled: false
     nacos:
       config:
         server-addr: 127.0.0.1:8848
         file-extension: yml
       discovery:
         server-addr: 127.0.0.1:8848
-  profiles:
-    active: dev
+    alibaba:
+      seata:
+        tx-service-group: ${spring.application.name}
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/pro?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8

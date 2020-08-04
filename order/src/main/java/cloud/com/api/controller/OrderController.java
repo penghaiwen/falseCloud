@@ -18,13 +18,12 @@ public class OrderController {
 
     @GetMapping("get/details/{id}")
     public Result getOrderDetails(@PathVariable("id") Long id){
-        Result result = userService.getUser();
-        return AppResult.ok(result.getData());
+        return userService.getUser();
     }
 
 
     @GetMapping("get/order/{id}")
-    public Result getOrder(@PathVariable("id") Long id){
+    public Result<Integer> getOrder(@PathVariable("id") Long id){
         return AppResult.ok(12121212);
     }
 }

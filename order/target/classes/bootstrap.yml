@@ -4,6 +4,8 @@ spring:
   application:
     name: serviceOrder
   cloud:
+    config:
+      enabled: false
     nacos:
       config:
         server-addr: 127.0.0.1:8848
@@ -11,8 +13,7 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848
 
-  profiles:
-    active: dev
+
 security:
   oauth2:
     resource:
@@ -23,6 +24,3 @@ security:
       access-token-uri: http://localhost:9200/oauth/token
       grant-type: client_credentials,password
       scope: all
-feign:
-  hystrix:
-    enabled: true
